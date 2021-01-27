@@ -2,7 +2,7 @@ package entities
 
 import (
 	"github.com/golang/geo/r3"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
 )
 
 type Entity struct {

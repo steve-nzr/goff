@@ -1,11 +1,11 @@
 package usecases
 
 import (
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/usecases"
-	"github.com/steve-nzr/goff-server/internal/domain/objects"
-	"github.com/steve-nzr/goff-server/pkg/abstract"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/usecases"
+	"github.com/steve-nzr/goff/internal/domain/objects"
+	"github.com/steve-nzr/goff/pkg/abstract"
 )
 
 type welcomeUseCase struct {

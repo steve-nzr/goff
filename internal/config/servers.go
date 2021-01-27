@@ -1,6 +1,6 @@
 package config
 
-import "github.com/steve-nzr/goff-server/internal/domain/objects"
+import "github.com/steve-nzr/goff/internal/domain/objects"
 
 const ClusterAddress = "127.0.0.1"
 const WorldAddress = "127.0.0.1"

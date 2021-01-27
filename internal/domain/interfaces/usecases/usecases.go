@@ -1,10 +1,10 @@
 package usecases
 
 import (
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/models"
-	"github.com/steve-nzr/goff-server/pkg/abstract"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/models"
+	"github.com/steve-nzr/goff/pkg/abstract"
 )
 
 type Welcome interface {

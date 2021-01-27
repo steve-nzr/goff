@@ -4,10 +4,10 @@ import (
 	"io"
 	"net"
 
-	"github.com/steve-nzr/goff-server/internal/config/constants"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/repositories"
+	"github.com/steve-nzr/goff/internal/config/constants"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/repositories"
 )
 
 type connectionRepository struct {

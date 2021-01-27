@@ -2,11 +2,11 @@ package usecases
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/steve-nzr/goff-server/internal/config/constants"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/usecases"
-	"github.com/steve-nzr/goff-server/internal/domain/objects"
-	"github.com/steve-nzr/goff-server/internal/models"
+	"github.com/steve-nzr/goff/internal/config/constants"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/usecases"
+	"github.com/steve-nzr/goff/internal/domain/objects"
+	"github.com/steve-nzr/goff/internal/models"
 )
 
 type loginUseCase struct {

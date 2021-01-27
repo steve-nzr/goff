@@ -5,7 +5,7 @@ RUN apk add gcc musl-dev
 
 RUN go env -w GOPATH=/go
 
-WORKDIR /go/src/github.com/steve-nzr/goff-server
+WORKDIR /go/src/github.com/steve-nzr/goff
 
 COPY go.mod .
 COPY go.sum .

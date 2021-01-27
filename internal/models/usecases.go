@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/pkg/abstract"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/pkg/abstract"
 )
 
 // UseCaseResponse holds the response from a game use-case.

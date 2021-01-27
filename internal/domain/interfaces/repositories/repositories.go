@@ -3,9 +3,9 @@ package repositories
 import (
 	"net"
 
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
 )
 
 type Connection interface {

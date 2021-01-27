@@ -1,8 +1,9 @@
 package entities
 
 import (
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
 	"io"
+
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
 )
 
 type NetClient struct {

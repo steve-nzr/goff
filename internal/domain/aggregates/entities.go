@@ -1,8 +1,8 @@
 package aggregates
 
 import (
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
 )
 
 type Character struct {

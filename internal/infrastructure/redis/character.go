@@ -8,10 +8,10 @@ import (
 
 	"github.com/go-redis/redis/v8"
 	"github.com/sirupsen/logrus"
-	"github.com/steve-nzr/goff-server/internal/domain/aggregates"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/repositories"
+	"github.com/steve-nzr/goff/internal/domain/aggregates"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/repositories"
 )
 
 type gameCharacterRepository struct {

@@ -1,10 +1,10 @@
 package factories
 
 import (
-	"github.com/steve-nzr/goff-server/internal/domain/aggregates"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
+	"github.com/steve-nzr/goff/internal/domain/aggregates"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
 )
 
 func NewCharacter(id, connId customtypes.ID, from *entities.Character) interfaces.Character {

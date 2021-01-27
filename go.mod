@@ -1,4 +1,4 @@
-module github.com/steve-nzr/goff-server
+module github.com/steve-nzr/goff
 
 go 1.15
 

@@ -6,14 +6,14 @@ import (
 
 	"github.com/bxcodec/faker/v3"
 	"github.com/golang/mock/gomock"
-	"github.com/steve-nzr/goff-server/internal/config/constants"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/usecases"
-	"github.com/steve-nzr/goff-server/internal/domain/objects"
-	"github.com/steve-nzr/goff-server/internal/models"
-	"github.com/steve-nzr/goff-server/pkg/testutils/mock_interfaces"
-	"github.com/steve-nzr/goff-server/pkg/testutils/mock_repositories"
+	"github.com/steve-nzr/goff/internal/config/constants"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/usecases"
+	"github.com/steve-nzr/goff/internal/domain/objects"
+	"github.com/steve-nzr/goff/internal/models"
+	"github.com/steve-nzr/goff/pkg/testutils/mock_interfaces"
+	"github.com/steve-nzr/goff/pkg/testutils/mock_repositories"
 	"github.com/stretchr/testify/suite"
 )
 
@@ -105,11 +105,11 @@ func (s *spawnSuite) TestSpawnCharacter_CannotSave() {
 }
 
 func (s *spawnSuite) TestSpawnCharacter_OK() {
-	inventory := entities.Inventory{}
+	inventory := make([]*entities.Item, 0, constants.MaxItems)
 	for i := 0; i < constants.MaxItems; i++ {
 		item := new(entities.Item)
 		_ = faker.FakeData(item)
-		inventory[i] = item
+		inventory = append(inventory, item)
 	}
 
 	s.mockCharacter.

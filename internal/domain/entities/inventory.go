@@ -1,8 +1,8 @@
 package entities
 
 import (
-	"github.com/steve-nzr/goff-server/internal/config/constants"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
+	"github.com/steve-nzr/goff/internal/config/constants"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
 )
 
 type Item struct {

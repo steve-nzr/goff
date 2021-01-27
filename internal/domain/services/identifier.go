@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
 )
 
 type identifierGenerator struct {

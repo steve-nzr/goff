@@ -1,14 +1,14 @@
 package usecases
 
 import (
-	"github.com/steve-nzr/goff-server/internal/config"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/repositories"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/usecases"
-	"github.com/steve-nzr/goff-server/internal/domain/objects"
-	"github.com/steve-nzr/goff-server/internal/models"
-	"github.com/steve-nzr/goff-server/pkg/abstract"
+	"github.com/steve-nzr/goff/internal/config"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/repositories"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/usecases"
+	"github.com/steve-nzr/goff/internal/domain/objects"
+	"github.com/steve-nzr/goff/internal/models"
+	"github.com/steve-nzr/goff/pkg/abstract"
 )
 
 type characterList struct {

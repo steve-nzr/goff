@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/objects"
-	"github.com/steve-nzr/goff-server/pkg/testutils/mock_interfaces"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/objects"
+	"github.com/steve-nzr/goff/pkg/testutils/mock_interfaces"
 	"github.com/stretchr/testify/assert"
 )
 

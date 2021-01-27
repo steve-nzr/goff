@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/steve-nzr/goff-server/internal/config"
-	"github.com/steve-nzr/goff-server/internal/config/constants"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/objects"
-	"github.com/steve-nzr/goff-server/internal/models"
-	mock_logrus "github.com/steve-nzr/goff-server/pkg/testutils/mock_logger"
+	"github.com/steve-nzr/goff/internal/config"
+	"github.com/steve-nzr/goff/internal/config/constants"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/objects"
+	"github.com/steve-nzr/goff/internal/models"
+	mock_logrus "github.com/steve-nzr/goff/pkg/testutils/mock_logger"
 	"github.com/stretchr/testify/suite"
 )
 

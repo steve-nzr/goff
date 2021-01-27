@@ -3,12 +3,12 @@ package main
 import (
 	"runtime"
 
-	"github.com/steve-nzr/goff-server/internal/infrastructure/files"
+	"github.com/steve-nzr/goff/internal/infrastructure/files"
 
-	"github.com/steve-nzr/goff-server/internal/domain/services"
-	"github.com/steve-nzr/goff-server/internal/presentations"
+	"github.com/steve-nzr/goff/internal/domain/services"
+	"github.com/steve-nzr/goff/internal/presentations"
 
-	"github.com/steve-nzr/goff-server/pkg/network"
+	"github.com/steve-nzr/goff/pkg/network"
 )
 
 func main() {

@@ -5,12 +5,12 @@ import (
 	"runtime"
 
 	goredis "github.com/go-redis/redis/v8"
-	"github.com/steve-nzr/goff-server/internal/domain/services"
-	"github.com/steve-nzr/goff-server/internal/infrastructure/files"
-	"github.com/steve-nzr/goff-server/internal/infrastructure/memory"
-	"github.com/steve-nzr/goff-server/internal/infrastructure/redis"
-	"github.com/steve-nzr/goff-server/internal/presentations"
-	"github.com/steve-nzr/goff-server/pkg/network"
+	"github.com/steve-nzr/goff/internal/domain/services"
+	"github.com/steve-nzr/goff/internal/infrastructure/files"
+	"github.com/steve-nzr/goff/internal/infrastructure/memory"
+	"github.com/steve-nzr/goff/internal/infrastructure/redis"
+	"github.com/steve-nzr/goff/internal/presentations"
+	"github.com/steve-nzr/goff/pkg/network"
 )
 
 func main() {

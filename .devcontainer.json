@@ -2,7 +2,7 @@
   "name": "Golang 1.15",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
-  "workspaceFolder": "/go/src/github.com/steve-nzr/goff-server",
+  "workspaceFolder": "/go/src/github.com/steve-nzr/goff",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/sh",
     "go.coverOnSave": true,

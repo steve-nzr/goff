@@ -1,9 +1,10 @@
 package services
 
 import (
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
-	"github.com/stretchr/testify/suite"
 	"testing"
+
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
+	"github.com/stretchr/testify/suite"
 )
 
 type identifierGeneratorSuite struct {

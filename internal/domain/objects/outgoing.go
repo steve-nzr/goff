@@ -4,11 +4,11 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/steve-nzr/goff-server/internal/config/constants"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
-	"github.com/steve-nzr/goff-server/pkg/abstract"
+	"github.com/steve-nzr/goff/internal/config/constants"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
+	"github.com/steve-nzr/goff/pkg/abstract"
 )
 
 // FPWelcome

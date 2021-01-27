@@ -5,16 +5,16 @@ import (
 	"net"
 
 	"github.com/sirupsen/logrus"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/repositories"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces/usecases"
-	"github.com/steve-nzr/goff-server/internal/domain/objects"
-	"github.com/steve-nzr/goff-server/internal/models"
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/repositories"
+	"github.com/steve-nzr/goff/internal/domain/interfaces/usecases"
+	"github.com/steve-nzr/goff/internal/domain/objects"
+	"github.com/steve-nzr/goff/internal/models"
 
-	"github.com/steve-nzr/goff-server/internal/domain/entities"
-	"github.com/steve-nzr/goff-server/internal/domain/interfaces"
-	usecasesimpl "github.com/steve-nzr/goff-server/internal/usecases"
-	"github.com/steve-nzr/goff-server/pkg/network"
+	"github.com/steve-nzr/goff/internal/domain/entities"
+	"github.com/steve-nzr/goff/internal/domain/interfaces"
+	usecasesimpl "github.com/steve-nzr/goff/internal/usecases"
+	"github.com/steve-nzr/goff/pkg/network"
 )
 
 type clusterServer struct {

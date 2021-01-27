@@ -2,8 +2,9 @@ package objects
 
 import (
 	"encoding/binary"
-	"github.com/steve-nzr/goff-server/internal/domain/customtypes"
 	"math"
+
+	"github.com/steve-nzr/goff/internal/domain/customtypes"
 )
 
 type FPReader struct {
