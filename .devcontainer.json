@@ -1,0 +1,30 @@
+{
+  "name": "Golang 1.15",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/go/src/github.com/steve-nzr/goff-server",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/sh",
+    "go.coverOnSave": true,
+    "go.coverageDecorator": {
+      "type": "gutter",
+      "coveredHighlightColor": "rgba(64,128,128,0.5)",
+      "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+      "coveredGutterStyle": "blockgreen",
+      "uncoveredGutterStyle": "blockred"
+    },
+    "go.coverOnSingleTest": true
+  },
+  "forwardPorts": [
+    23000,
+    28000,
+    5400
+  ],
+  "extensions": [
+    "golang.Go",
+    "editorconfig.editorconfig",
+    "ms-azuretools.vscode-docker",
+    "liuchao.go-struct-tag",
+    "premparihar.gotestexplorer"
+  ]
+}

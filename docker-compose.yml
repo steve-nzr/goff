@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  app:
+    build:
+      target: builder
+      context: .
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    volumes:
+      - .:/go/src/github.com/steve-nzr/goff-server
+    depends_on:
+      - redis
+  redis:
+    image: library/redis:alpine
+    ports:
+      - 6379:6379

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "account_id": 1,
+    "skin_set_id": 1,
+    "hair_id": 1,
+    "hair_color": 0,
+    "head_id": 1,
+    "location": {
+      "map_id": 1,
+      "pos": {
+        "X": 6968.0,
+        "Y": 100.0,
+        "Z": 3328.0
+      },
+      "angle": 0
+    },
+    "name": "Goff",
+    "slot": 0,
+    "gender": 0,
+    "job_id": 1,
+    "level": 1,
+    "items": [
+      {
+        "unique_id": 44,
+        "item_id": 502,
+        "position": 44,
+        "count": 1
+      },
+      {
+        "unique_id": 46,
+        "item_id": 506,
+        "position": 46,
+        "count": 1
+      },
+      {
+        "unique_id": 47,
+        "item_id": 510,
+        "position": 47,
+        "count": 1
+      },
+      {
+        "unique_id": 52,
+        "item_id": 21,
+        "position": 52,
+        "count": 1
+      }
+    ]
+  }
+]
