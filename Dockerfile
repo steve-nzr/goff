@@ -1,4 +1,4 @@
-FROM golang:1.15-alpine as builder
+FROM golang:1.22 as builder
 LABEL maintainer="nezerphoenix@gmail.com"
 
 RUN apk add gcc musl-dev
